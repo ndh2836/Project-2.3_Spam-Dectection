@@ -1,0 +1,29 @@
+Bước 1: Điều hướng đến thư mục Project
+cd "D:\Python Project\Project 2.2_Cocktail_Suggestion"
+hoặc
+mở cmd ở đường link file
+
+Bước 2: Tạo một môi trường ảo mới
+python -m venv spam_detection
+
+Bước 3: Kích hoạt môi trường ảo
+spam_detection\Scripts\activate
+
+Bước 4: Cài đặt các thư viện cần thiết
+pip install streamlit pandas numpy scikit-learn nltk gdown
+pip install streamlit faiss-cpu transformers pandas numpy scikit-learn tqdm gdown
+
+
+Bước 5: Xác nhận là ở vs code đã nhận môi trường ảo
+
+Các lần tiếp theo:
+
+1. Mở Command Prompt/Terminal.
+2. Điều hướng đến thư mục project hoặc mở cmd ở đường link file
+3. Kích hoạt môi trường ảo: pdf_rag_env\Scripts\activate
+4. chạy lệnh streamlit run ....py
+5. Đóng Command Prompt/Terminal hoặc chạy lệnh deactivate, môi trường ảo sẽ tự động bị hủy kích hoạt. 
+
+
+streamlit run app_naive_bayes.py
+streamlit run app_vector_db.py
